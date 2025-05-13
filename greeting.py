@@ -11,7 +11,7 @@ def main():
             print("Error: Each name must be 10 characters or less. Please try again.")
         else:
             # Generate and print greeting
-            print(f"✨ Hello {first_name.capitalize()} {last_name.capitalize()}! ✨")
+            print(f"Hello {first_name.capitalize()} {last_name.capitalize()}!")
     except ValueError:
         print("Error: Please enter exactly two names separated by a space.")
 
