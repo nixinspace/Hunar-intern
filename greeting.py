@@ -11,5 +11,8 @@ while len(last_name) > 10:
     last_name = input("Enter your last name (max 10 characters): ")
 
 # Generate and print the greeting
+first_name = first_name.capitalize()
+last_name = last_name.capitalize()
+
 greeting = f"Hello {first_name} {last_name}!"
 print(greeting)
